@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Технічна Специфікація | PROJECT_X</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&family=Exo+2:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+
+    <nav class="nav-fixed">
+        <div class="logo-text">PROJECT_X // DETAILS</div>
+        <div class="nav-links">
+            <a href="index.html">ГОЛОВНА</a>
+            <a href="details.html">СПЕЦИФІКАЦІЯ</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="section-title" data-aos="fade-right">
+            <h2 style="font-family: 'Orbitron'; color: var(--primary); font-size: 2.5rem; margin-bottom: 40px; border-left: 5px solid var(--primary); padding-left: 20px;">
+                ТЕХНІЧНИЙ ПАСПОРТ v5.0
+            </h2>
+        </div>
+
+        <div class="table-wrapper" data-aos="fade-up">
+            <table class="ultra-table">
+                <thead>
+                    <tr>
+                        <th>ЕЛЕМЕНТ</th>
+                        <th>МАТЕРІАЛ</th>
+                        <th>РОЗМІР (мм)</th>
+                        <th>ОПИС / КІЛЬКІСТЬ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Опорні стійки</td>
+                        <td>Труба квадратна</td>
+                        <td>50 х 50 х 3</td>
+                        <td>6 шт (3х2500мм, 3х2000мм)</td>
+                    </tr>
+                    <tr>
+                        <td>Головні балки</td>
+                        <td>Труба прямокутна</td>
+                        <td>80 х 40 х 3</td>
+                        <td>2 шт по 4.8 метри</td>
+                    </tr>
+                    <tr>
+                        <td>Поперечні ферми</td>
+                        <td>Труба прямокутна</td>
+                        <td>60 х 40 х 2.5</td>
+                        <td>6 шт по 5.0 метрів</td>
+                    </tr>
+                    <tr>
+                        <td>Обрешітка</td>
+                        <td>Труба прямокутна</td>
+                        <td>40 х 20 х 2</td>
+                        <td>7 рядів по 5.0 метрів</td>
+                    </tr>
+                    <tr>
+                        <td>Покрівельний шар</td>
+                        <td>Профнастил ПК-20</td>
+                        <td>0.5 мм</td>
+                        <td>Загальна площа ~26 м²</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="tech-grid">
+            <div class="tech-card" data-aos="flip-left">
+                <h3>🏗️ ФУНДАМЕНТ</h3>
+                <p>Бетонування стійок у лунки глибиною 900 мм. Використовувати бетон марки М250 для максимальної стабільності при вітрових навантаженнях.</p>
+            </div>
+            <div class="tech-card" data-aos="flip-left" data-aos-delay="100">
+                <h3>📐 ГЕОМЕТРІЯ</h3>
+                <p>Перепад висоти 500 мм створює кут нахилу 6°, що забезпечує автоматичний схід снігу та ідеальне водовідведення.</p>
+            </div>
+            <div class="tech-card" data-aos="flip-left" data-aos-delay="200">
+                <h3>🛡️ ЗАХИСТ</h3>
+                <p>Каркас потребує зачистки та покриття двома шарами ґрунт-емалі. Місця зварювання обробити особливо ретельно.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>© 2026 INDUSTRIAL CONSTRUCTIONS | ENGINEERING UNIT</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({ duration: 1000, once: true });
+    </script>
+
+</body>
+</html>
